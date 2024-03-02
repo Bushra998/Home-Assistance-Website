@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Website</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="become-provider-page">
+    <section id="banner" style="height: 160px;">
+            <div class="bannr-text" style="margin-top: 0px; padding-top: 10px;">
+            <h1>Welcome Dear Member, How we may help you?       
+            </h1>
+            <p>Please select the service you need from us right now.</p>
+
+            </div>
+   </section>
+
+
+    <!-- Service -->
+
+
+    <section id="services">
+        <div class="services-row">
+            <div class="service-box" onClick="electric()">
+                <i class="fas fa-bolt"></i>
+                <p>Hire an Electrician</p>
+            </div>
+            <div class="service-box" onClick="plumber()">
+                <i class="fas fa-wrench"></i>
+                <p>Hire a Plumber</p>
+            </div>
+            <div class="service-box" onClick="carpenter()">
+                <i class="fas fa-hammer"></i>
+                <p>Hire a Carpenter</p>
+            </div>
+            <div class="service-box" onClick="ac()">
+                <i class="fas fa-snowflake"></i>
+                <p>Hire an AC Technician</p>
+            </div>
+            <div class="service-box" onClick="cctv()">
+                <i class="fas fa-video"></i>
+                <p>Hire a CCTV Technician</p>
+            </div>
+            <div class="service-box" onClick="fridge()">
+                <i class="fas fa-snowplow"></i>
+                <p>Hire a Fridge Repairman</p>
+            </div>
+            <div class="service-box" onClick="washing()">
+                <i class="fas fa-washer"></i>
+                <p>Hire a Washing Machine Repairman</p>
+            </div>
+            <div class="service-box" onClick="ups()">
+                <i class="fas fa-battery-full"></i>
+                <p>Hire a UPS Technician</p>
+            </div>
+            <div class="service-box" onClick="mechanic()">
+                <i class="fas fa-tv"></i>
+                <p>Hire a TV Mechanic</p>
+            </div>
+            <div class="service-box" onClick="cleaner()">
+                <i class="fas fa-broom"></i>
+                <p>Hire a Cleaner</p>
+            </div>
+            <div class="service-box" onClick="generator()">
+                <i class="fas fa-tools"></i>
+                <p>Hire a Generator Technician</p>
+            </div>
+            <div class="service-box" onClick="solar()">
+                <i class="fas fa-solar-panel"></i>
+                <p>Hire a Solar Panel Technician</p>
+            </div>
+            <div class="service-box" onClick="mason()">
+                <i class="fas fa-user-md"></i>
+                <p>Hire a Mason</p>
+            </div>
+            <div class="service-box" onClick="learning()">
+                <i class="fas fa-brain"></i>
+                <p>I want to join for learning technical skills</p>
+            </div>
+            <button class="service-box" onClick="window.location='index.html'">
+                <i class="fas fa-user-friends"></i>
+                <p>Log Out</p>
+            </button>
+        </div>
+    </section>
+
+
+    <script>
+
+        var labor;
+        var mobile;
+        var order = 240001;
+        
+        function electric()
+            {
+            labor = "Your request for Electrician has been forwarded";
+            mobile = "0300-1234567";
+            displayReport();
+            }
+        
+        function plumber()
+            {
+            labor = "Your request for Plumber has been forwarded";
+            mobile = "0300-1234567";
+            displayReport();
+            }
+        
+        function carpenter()
+            {
+            labor = "Your request for Carpenter has been forwarded";
+            mobile = "0300-1234567";
+            displayReport();
+            }
+        
+        function ac()
+            {
+            labor = "Your request for AC Technician has been forwarded";
+            mobile = "0300-1234567";
+            displayReport();
+            }
+        
+        function cctv()
+            {
+            labor = "Your request for CCTV Technician has been forwarded";
+            mobile = "0300-1234567";
+            displayReport();
+            }
+        
+        function fridge()
+            {
+            labor = "Your request for Fridge Repairman has been forwarded";
+            mobile = "0300-1234567";
+            displayReport();
+            }
+        
+        function washing()
+            {
+            labor = "Your request for Washing Machine has been forwarded";
+            mobile = "0300-1234567";
+            displayReport();
+            }
+        
+        function ups()
+            {
+            labor = "Your request for UPS Technician has been forwarded";
+            mobile = "0300-1234567";
+            displayReport();
+            }
+        
+        function mechanic()
+            {
+            labor = "Your request for TV Mechanic has been forwarded";
+            mobile = "0300-1234567";
+            displayReport();
+            }
+        
+        function cleaner()
+            {
+            labor = "Your request for Cleaner has been forwarded";
+            mobile = "0300-1234567";
+            displayReport();
+            }
+        
+        function generator()
+            {
+            labor = "Your request for Generator Techncian has been forwarded";
+            mobile = "0300-1234567";
+            displayReport();
+            }
+        
+        function solar()
+            {
+            labor = "Your request for Solar Panel Technician has been forwarded";
+            mobile = "0300-1234567";
+            displayReport();
+            }
+        
+        function mason()
+            {
+            labor = "Your request for Mason has been forwarded";
+            mobile = "0300-1234567";
+            displayReport();
+            }
+        
+        function learning()
+            {
+            labor = "Your request for Learning Technical Skills has been forwarded";
+            mobile = "0300-1234567";
+            displayReport();
+            }
+
+        function displayReport()
+            {
+            document.write("<div style='width:400px;' align='center'>");
+            document.write("HOME ASSISTANCE<br>");
+            document.write("===============<br>");
+            document.write("<br>");
+            document.write("<br>");
+            document.write("Order Slip<br>");
+            document.write("<br><br>");
+            document.write("Order # "+order+"<br>");
+            document.write("<br>");
+            document.write("Concerned Person: xyz<br>");
+            document.write("Contact: 021-3456789<br>");
+            document.write("----------------------------------------------------<br>");
+            document.write("<br><b>");
+            document.write(labor+"</b><br>");
+            document.write("Mobile No. <b>"+mobile+"</b><br>");
+            document.write("<br>");
+            document.write("<br>");
+            document.write("Our representative will shortly contact you.<br>");
+            document.write("Print this slip or save it for future.<br>");
+            document.write("<i>Refresh this page to go back.<br>");
+            document.write("</div>");
+            }
+        
+    </script>
+</body>
+</html>

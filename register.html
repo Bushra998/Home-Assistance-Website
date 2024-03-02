@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="login-page">
+    <div class="page-container">
+        <section id="register-form">
+            <div class="container">
+                <h2>Register</h2>
+                <form>
+                    <input type="text" id="name" name="name" placeholder="Name" required>
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                    <input type="text" id="city" name="city" placeholder="City" required>
+                    <input type="text" id="phone" name="phone" placeholder="Phone" required>
+                    <input type="password" id="password" name="password" placeholder="Password" required>
+                    <button type="button" onClick="Register()">Register</button>
+                </form>
+                <p>Already have an account? <a href="login.html">Login here</a></p>
+                <p>Go back to <a href="index.html">Main Page</a></p>
+            </div>
+        </section>
+    </div>
+    <script>
+        var name;
+        var email;
+        var city;
+        var phone;
+        var password;
+
+            function Register()
+            {
+            name = document.getElementById("name").value;
+            email = document.getElementById("email").value;
+            city = document.getElementById("city").value;  
+            phone= document.getElementById("phone").value; 
+            password = document.getElementById("password").value;       
+            if(password==="123" && name==="Bushra" && email==="homeservice@gmail.com" && city==="karachi" && phone==="021-1234567")
+                {
+                alert("Congargulations "+name+"! Your account has been successfully registered.");
+                window.location='login.html';
+                }
+            else{
+                alert("Incomplete Information")
+            }
+            }
+    </script>
+
+</body>
+</html>
